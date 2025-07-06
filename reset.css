@@ -1,0 +1,76 @@
+/* ==== СБРОС ВСЕХ СТИЛЕЙ (CSS RESET) ==== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Удаляем обводки и акценты */
+:focus,
+:active {
+  outline: none;
+}
+
+/* Наследование шрифтов */
+body {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1;
+  background: #fff;
+  color: #000;
+}
+
+/* Убираем списочные стили */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Убираем стили у ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Убираем стили у кнопок и инпутов */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* Таблицы */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Изображения */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* HTML элементы */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
