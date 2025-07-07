@@ -1,5 +1,5 @@
-@import url("/styles/reset.css");
-@import url("/styles/main.css");
+@import url("./reset.css");
+@import url("./main.css");
 
 /* HEADER-МЕНЮ */
 
@@ -367,4 +367,4 @@
   justify-content: space-between;
 }
 
-@import url("/styles/media.css");
+@import url("./media.css");
