@@ -11,10 +11,6 @@
   --font-weight-900: 900;
 }
 
-/* html{
-  width: 100%;
-} */
-
 body {
   position: relative;
   width: 100%;
@@ -24,6 +20,10 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+/* img, picture, video, canvas, svg{
+  height: 100%;
+} */
 
 header {
   display: flex;
