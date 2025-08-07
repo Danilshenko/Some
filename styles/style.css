@@ -5,13 +5,12 @@
 
 .header-menu_en {
   position: absolute;
-  width: 42px;
-  height: 42px;
+  padding: 11px 11px;
   background-color: transparent;
   font-size: 18px;
   font-weight: var(--font-weight-500);
   border: 1px solid #000;
-  top: 7px;
+  top: 5px;
   left: 92%;
 }
 
@@ -29,8 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 138px;
-  height: 42px;
+  padding: 10px 30px;
   color: var(--white-color);
   background-color: var(--black-color);
   margin-left: 60px;
@@ -40,7 +38,7 @@
 
 .main-img {
   position: relative;
-  margin-top: 35px;
+  margin-bottom: 26px;
 }
 
 .main-text {
@@ -50,31 +48,23 @@
   color: var(--white-color);
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-base);
   text-align: left;
-  width: 600px;
   top: 35%;
   left: 44%;
 }
 
 .main-text h1 {
-  font-size: 34px;
+  font-size: var(--font-size-base);
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 2%;
   text-transform: uppercase;
 }
 .main-text h2 {
-  font-size: 34px;
-  font-weight: 300;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-300);
   line-height: 1.2;
   letter-spacing: 2%;
   text-transform: uppercase;
-}
-
-.main-text__item {
-  margin: 0px;
 }
 
 .main-text__item:last-child {
@@ -85,31 +75,31 @@
 
 .sales-block {
   position: relative;
-  margin-top: 26px;
+  margin-bottom: 88px;
 }
 
 .block-left {
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: absolute;
-  justify-content: space-between;
-  top: -5%;
-  left: 50px;
+  justify-content: center;
+  top: 0%;
+  left: 5%;
 }
 
 .left-top__text {
   font-size: 102px;
   font-weight: var(--font-weight-100);
   color: var(--white-color);
-  margin: 0px;
-  height: 125px;
+  line-height: 125px;
 }
 
 .left-bottom__text {
   font-size: 48px;
   font-weight: var(--font-weight-900);
   color: var(--white-color);
-  margin: 0px;
+  margin-top: 1px;
 }
 
 .block-button {
@@ -118,26 +108,26 @@
   background-color: transparent;
   border: 1px solid var(--white-color);
   font-size: 18px;
-  width: 165px;
-  height: 42px;
+  padding: 10px 30px;
+  letter-spacing: 1px;
   top: 40%;
-  left: 50%;
+  left: 40%;
 }
 
 /* Special offers*/
 
-.special-offers {
-  margin-top: 88px;
+.special-offers{
+  margin-bottom: 125px;
 }
 
 .special-offers__name {
   font-weight: var(--font-weight-base);
-  font-size: 34px;
+  font-size: var(--font-size-base);
   text-transform: uppercase;
+  margin-bottom: 75px;
 }
 
 .name-top__text {
-  margin: 0px;
   letter-spacing: 0.2rem;
 }
 
@@ -145,18 +135,13 @@
   font-weight: var(--font-weight-300);
   font-size: 40px;
   text-transform: uppercase;
-  margin: 0px;
   letter-spacing: 0.2rem;
-}
-
-.special-offers__block {
-  margin-top: 75px;
 }
 
 .block-cards {
   display: flex;
   margin-bottom: 35px;
-  height: 278px;
+  /* height: 278px; */
 }
 
 .cards-img {
@@ -180,10 +165,9 @@
 
 .cards-right {
   width: 712px;
-  height: 269px;
   background-color: var(--backCards-color);
   padding: 45px 0px 45px 70px;
-  height: 100%;
+  height: 100%; 
 }
 
 .cards-left {
@@ -194,7 +178,7 @@
   font-weight: var(--font-weight-base);
   font-size: 40px;
   letter-spacing: 0.2rem;
-  margin: 0px 0px 20px 0px;
+  margin-bottom: 20px;
 }
 
 .cards-num {
@@ -202,31 +186,30 @@
   font-size: 25px;
 }
 
-.block-cards:nth-child(2) .cards-right,
-.block-cards:nth-child(4) .cards-right {
+.block-cards--secondblock .cards-right,
+.block-cards--fourthblock .cards-right {
   padding: 45px 70px 45px 0px;
   text-align: right;
 }
 
-.block-cards:nth-child(2) p,
-.block-cards:nth-child(4) p {
+.block-cards--secondblock p,
+.block-cards--fourthblock p {
   margin-left: auto;
 }
 
 /* Block app */
 
 .app-block {
-  margin-top: 125px;
   position: relative;
+  margin-bottom: 123px;
 }
 
 .block-app__left {
   display: flex;
   flex-direction: column;
   position: absolute;
-  display: flex;
   justify-content: space-between;
-  top: 5%;
+  top: 8%;
   left: 5%;
 }
 
@@ -238,24 +221,21 @@
   font-weight: var(--font-weight-500);
   letter-spacing: 0.1rem;
   font-size: 18px;
-  width: 241px;
-  height: 42px;
-  top: 128px;
-  left: 444px;
+  padding: 10px 20px;
+  top: 45%;
+  left: 30%;
 }
 
 .block-app__left h2 {
   font-size: 76px;
   font-weight: var(--font-weight-300);
   color: var(--white-color);
-  margin: 0px;
 }
 
 .block-app__left h3 {
   font-size: 64px;
   font-weight: 900;
   color: var(--white-color);
-  margin: 0px;
 }
 
 /* About  */
@@ -263,7 +243,6 @@
 .about-block {
   display: flex;
   justify-content: space-between;
-  margin-top: 123px;
   margin-bottom: 142px;
 }
 
@@ -276,7 +255,7 @@
 }
 
 .info-name {
-  font-size: 34px;
+  font-size: var(--font-size-base);
   font-weight: var(--font-weight-base);
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -286,13 +265,11 @@
   display: block;
   font-size: 14px;
   font-weight: var(--font-weight-500);
-  height: 183px;
-  width: 450px;
+  min-width: 450px;
 }
 
 .info-button {
-  width: 174px;
-  height: 42px;
+  padding: 10px 10px;
   background-color: transparent;
   font-size: var(--font-size-18);
   font-weight: var(--font-weight-500);
@@ -327,7 +304,6 @@
 
 .cta-top__text {
   font-size: 34px;
-  margin: 0px;
   letter-spacing: 0.2rem;
   font-weight: var(--font-weight-base);
   text-transform: uppercase;
@@ -337,14 +313,12 @@
   font-weight: var(--font-weight-300);
   font-size: var(--font-size-base);
   text-transform: uppercase;
-  margin: 0px;
   letter-spacing: 0.2rem;
   margin-bottom: 25px;
 }
 
 .cta-button {
-  width: 184px;
-  height: 42px;
+  padding: 10px 25px;
   font-weight: var(--font-weight-500);
   font-size: 18px;
   letter-spacing: 0.1rem;
@@ -390,19 +364,24 @@
 
 @media (max-width: 1500px) {
   /* Hero Text */
-  .main-text__item {
-    font-size: 30px;
-    width: 400px;
-  }
+    .main-text__item {
+        min-width: 100%;
+    }
 
   /* Sales Section */
-  .block-left {
-    top: -15%;
+  .block-left h2{
+    font-size: 90px;
+    height: 86px;
+    line-height: 90px;
+  }
+
+  .block-left h3{
+    font-size: 40px;
   }
 
   /* Card Right Section */
   .cards-right {
-    padding: 0px 0 0px 45px;
+    padding: 45px 0px 45px 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -410,9 +389,6 @@
   }
 
   /* App Section */
-  .block-app__left {
-    top: -5%;
-  }
 
   .block-app__button {
     top: 45%;
@@ -422,11 +398,11 @@
 
 /* ============ MEDIA QUERY: max-width 1398px ============ */
 
-@media (max-width: 1398px) {
+@media (max-width: 1400px) {
 
 /* === Header === */
 .header-menu_button {
-  margin-left: 69px;
+  margin-left: 50px;
 }
 
 /* === Images === */
@@ -447,12 +423,6 @@
   margin-left: 50px;
 }
 
-/* === Images === */
-.sales-block__img,
-.app-block__img {
-  height: 180px;
-}
-
 /* === App Block === */
 .block-app__left h2 {
   height: 90px;
@@ -462,19 +432,48 @@
 
 /* ============ MEDIA QUERY: max-width 1310px ============ */
 
-@media (max-width: 1310px){
+@media (max-width: 1300px){
+/* Nav-menu */
 .header-menu_button{
-  margin-left: 50px;
+  margin-left: 30px;
+}
+
+/* App */
+
+.block-app__left h2 {
+  line-height: 65px;
+  height: 55px;
+}
+
+.block-app__button{
+  top: 40%;
+}
+
+/* About */
+.about-block {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 50px;
+}
+
+.about-block__info{
+  margin-left: 0px;
+}
+
+.info-text{
+  min-width: 100%;
+}
+
+.img-back{
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.img-logo{
+  left: 40%;
 }
 }
 
-/* ============ MEDIA QUERY: max-width 1274px ============ */
-
-@media (max-width: 1274px) {
-  .header-menu_button{
-    margin-left: 30px;
-  }
-}
 
 /* ============ MEDIA QUERY: max-width 1200px ============ */
 
@@ -484,19 +483,14 @@
     margin-left: 50px;
   }
 
-  /* Global Layout */
-  body {
-    padding: 0 100px;
-  }
-
   /* Sales Section */
   .block-left {
-    top: -5%;
+    top: 0%;
   }
 
-  .left-top__text {
-    font-size: 70px;
-    height: 90px;
+  .block-left h2{
+  font-size: 90px;
+  height: 90px;
   }
 
   .left-bottom__text {
@@ -504,17 +498,13 @@
   }
 
   /* Cards */
-  .block-cards {
-    height: 200px;
-  }
-
   .cards-right {
     left: 4%;
   }
 
-  .block-cards:nth-child(2) .cards-right,
-  .block-cards:nth-child(4) .cards-right {
-    padding: 45px 30px 45px 0px;
+  .block-cards--secondblock21 .cards-right,
+  .block-cards--fourthblock .cards-right {
+    padding-right: 30px;
   }
 
   .cards-img {
@@ -532,43 +522,41 @@
 
   /* About Section */
   .about-block__info {
-    margin-right: 50px;
+    margin: 0;
+  }
+
+  .img-logo{
+    left: 40%;
   }
 
   /* Background Image */
   .img-back {
     height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
 /* ============ MEDIA QUERY: max-width 1150px ============ */
 
 @media (max-width: 1150px) {
-  /* Header */
-  header {
-    align-items: center;
-  }
-
-  /* Body Scroll Lock */
-  body.no-scroll {
-    overflow: hidden;
-  }
-
   /* Sales Image */
   .sales-block__img {
     object-fit: cover;
     object-position: center;
+    height: 140px;
   }
 
   /* Cards Layout Stack */
-  .block-cards:nth-child(1),
+  .block-cards:first-child,
   .block-cards:nth-child(3) {
     display: flex;
     flex-direction: column;
   }
 
   .cards-right {
-    padding: 45px 30px 45px 35px;
+    padding-right: 30px;
+    padding-left: 35px;
   }
 
   .cards-right,
@@ -580,31 +568,45 @@
     margin-bottom: 1.25rem;
   }
 
-  .block-cards:nth-child(2),
-  .block-cards:nth-child(4) {
+  .block-cards--secondblock,
+  .block-cards--fourthblock {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 66%;
   }
 
-  .block-cards:nth-child(2) .cards-right,
-  .block-cards:nth-child(4) .cards-right {
+  .block-cards--secondblock .cards-right,
+  .block-cards--fourthblock .cards-right {
     text-align: left;
-    padding: 45px 30px 45px 35px;
+    padding-left: 30px;
   }
 
   .cards-img {
     width: 100%;
   }
 
+  .block-app__left h2 {
+    height: 75px;
+    line-height: 75px;
+  }
+
   /* App Image */
   .app-block__img {
     object-fit: cover;
     object-position: center;
+    height: 180px;
+  }
+
+  .block-app__left h2 {
+    font-size: 60px;
+  }
+
+  .block-app__left h3 {
+    font-size: 45px;
   }
 
   /* Header Burger Menu */
   header::before {
+    display: none;
     content: "";
     position: absolute;
     top: 0;
@@ -616,8 +618,10 @@
   .header__burger {
     display: block;
     position: relative;
+    z-index: 5; 
     width: 30px;
     height: 20px;
+    cursor: pointer;
   }
 
   .header__burger span {
@@ -708,14 +712,11 @@
 /* ============ MEDIA QUERY: max-width 800px ============ */
 
 @media (max-width: 800px) {
-  /* Layout */
-  body {
-    padding: 0 50px;
-  }
 
   /* Hero Text */
   .main-text {
-    width: 400px;
+    left: 0px;
+    top: 0px;
   }
 
   /* Sales Image */
@@ -740,10 +741,19 @@
     top: 75%;
   }
 
+  .block-cards--secondblock, .block-cards--fourthblock {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .block-cards{
+    display: block;
+  }
+
   /* About Section Stack */
   .about-block {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
   }
 
   .about-block__info {
@@ -753,8 +763,8 @@
 
   /* Call to Action */
   .cta-sing {
-    top: 25%;
-    left: 25%;
+    top: 0%;
+    left: 0%;
   }
 
   /* Logo Positioning */
@@ -768,13 +778,16 @@
 @media (max-width: 600px) {
   /* === Main Text === */
 .main-text {
-  left: 20%;
+  left: 0px;
 }
 
-.main-text__item {
-  width: 400px;
-}
+  .header-menu_en {
+    left: 73%;
+  }
 
+.img-logo {
+  top: 81%;
+}
 /* === CTA === */
 .cta-top__text,
 .cta-bottom__text {
@@ -782,43 +795,32 @@
 }
 
 .cta-button {
-  width: 117px;
+  width: 140px;
   height: 28px;
   font-weight: var(--font-weight-500);
+  line-height: 8px;
   font-size: 10px;
-}
-
-/* === Footer === */
-footer {
-  display: flex;
-  flex-direction: column;
 }
 
 /* === Info Block === */
 .info-block {
   align-items: center;
 }
+.info-text{
+  min-width: 100%;
+}
 }
 
 /* ============ MEDIA QUERY: max-width 400px ============ */
 
 @media (max-width: 400px) {
-  /* Layout */
-  body {
-    padding: 0;
-  }
 
   /* Header Language Button */
   .header-menu_en {
-    left: 75%;
+    left: 70%;
   }
 
   /* Hero Text */
-  .main-text {
-    top: 25%;
-    left: 25%;
-    width: 300px;
-  }
 
   .main-text__item {
     font-size: 16px;
@@ -832,6 +834,7 @@ footer {
 
   .block-button {
     left: 25%;
+    top: 75%;
   }
 
   /* App Section */
@@ -845,7 +848,7 @@ footer {
 
   /* About Text */
   .info-text {
-    width: 350px;
+    min-width: 350px;
   }
 
   /* Call to Action */

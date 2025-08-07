@@ -29,6 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 26px;
+  margin-bottom: 35px;
 }
 
 nav {
@@ -49,4 +50,41 @@ footer {
   align-items: center;
   background-color: var(--black-color);
   height: 330px;
+}
+
+
+@media (max-width: 1200px) {
+    body {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1150px) {
+  /* Header */
+  header {
+    align-items: center;
+  }
+
+  /* Body Scroll Lock */
+  body.no-scroll {
+    overflow: hidden;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 600px){
+  footer {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+@media (max-width: 400px) {
+  body {
+    padding: 0;
+  }
 }
