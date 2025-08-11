@@ -188,6 +188,7 @@
 
 .block-cards--secondblock .cards-right,
 .block-cards--fourthblock .cards-right {
+  padding: 45px 70px 45px 0px;
   text-align: right;
 }
 
@@ -646,10 +647,6 @@
     width: 40px;
     height: 40px;
   }
-  .cta-sing{
-    left: 5%;
-    top: 9%;
-  }
 }
 
 /* ============ MEDIA QUERY: max-width 800px ============ */
@@ -723,15 +720,15 @@
   .block-app__button {
     left: 22%;
   }
-
   .cards-name{
-    font-size: var(--font-size-base);
+    font-size: 34px;
   }
-
   .cards-text{
     font-size: 30px;
   }
-
+  .block-cards--secondblock .cards-right{
+    padding-right: 30px;
+  }
   /* CTA */
   .cta-top__text,
   .cta-bottom__text {
