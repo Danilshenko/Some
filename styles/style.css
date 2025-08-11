@@ -367,7 +367,7 @@
   .main-text__item {
     min-width: 100%;
   }
-  .header-menu_button{
+  .header-menu_button, .header-menu_button:last-child{
     margin-left: 45px;
   }
   /* Sales Section */
