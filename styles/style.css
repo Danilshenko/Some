@@ -367,6 +367,9 @@
   .main-text__item {
     min-width: 100%;
   }
+  .header-menu_button{
+    margin-left: 45px;
+  }
   /* Sales Section */
   .block-left h2 {
     font-size: 90px;
@@ -394,10 +397,6 @@
 /* ============ MEDIA QUERY: max-width 1398px ============ */
 
 @media (max-width: 1400px) {
-  /* Header */
-  .header-menu_button {
-    margin-left: 50px;
-  }
   /* Images */
   .img-back {
     height: 100%;
@@ -410,10 +409,6 @@
 /* ============ MEDIA QUERY: max-width 1350px ============ */
 
 @media (max-width: 1350px) {
-  /*  Header  */
-  .header-menu_button {
-    margin-left: 50px;
-  }
   /*  App Block  */
   .block-app__left h2 {
     height: 90px;
@@ -760,7 +755,6 @@
   }
   .block-button {
     left: 25%;
-    top: 75%;
   }
   /* App Section */
   .block-app__left {
