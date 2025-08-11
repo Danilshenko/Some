@@ -647,6 +647,10 @@
     width: 40px;
     height: 40px;
   }
+  .cta-sing{
+    left: 5%;
+    top: 9%;
+  }
 }
 
 /* ============ MEDIA QUERY: max-width 800px ============ */
@@ -721,7 +725,7 @@
     left: 22%;
   }
   .cards-name{
-    font-size: 34px;
+    font-size: var(--font-size-base);
   }
   .cards-text{
     font-size: 30px;
