@@ -93,6 +93,7 @@
   font-weight: var(--font-weight-100);
   color: var(--white-color);
   line-height: 125px;
+  text-transform: none;
 }
 
 .left-bottom__text {
@@ -116,7 +117,7 @@
 
 /* Special offers*/
 
-.special-offers{
+.special-offers {
   margin-bottom: 125px;
 }
 
@@ -141,7 +142,6 @@
 .block-cards {
   display: flex;
   margin-bottom: 35px;
-  /* height: 278px; */
 }
 
 .cards-img {
@@ -167,7 +167,7 @@
   width: 712px;
   background-color: var(--backCards-color);
   padding: 45px 0px 45px 70px;
-  height: 100%; 
+  height: 100%;
 }
 
 .cards-left {
@@ -333,7 +333,7 @@
   flex-direction: column;
 }
 
-.info-block h1 {
+.info-block h2 {
   font-weight: var(--font-weight-500);
   font-size: var(--font-size-18);
   color: var(--white-color);
@@ -364,21 +364,18 @@
 
 @media (max-width: 1500px) {
   /* Hero Text */
-    .main-text__item {
-        min-width: 100%;
-    }
-
+  .main-text__item {
+    min-width: 100%;
+  }
   /* Sales Section */
-  .block-left h2{
+  .block-left h2 {
     font-size: 90px;
     height: 86px;
     line-height: 90px;
   }
-
-  .block-left h3{
+  .block-left h3 {
     font-size: 40px;
   }
-
   /* Card Right Section */
   .cards-right {
     padding: 45px 0px 45px 70px;
@@ -387,9 +384,7 @@
     justify-content: center;
     font-size: 16px;
   }
-
   /* App Section */
-
   .block-app__button {
     top: 45%;
     left: 45%;
@@ -399,81 +394,67 @@
 /* ============ MEDIA QUERY: max-width 1398px ============ */
 
 @media (max-width: 1400px) {
-
-/* === Header === */
-.header-menu_button {
-  margin-left: 50px;
-}
-
-/* === Images === */
-.img-back {
-  height: 100%;
-}
-
-.img-logo {
-  left: 27%;
-}
+  /* Header */
+  .header-menu_button {
+    margin-left: 50px;
+  }
+  /* Images */
+  .img-back {
+    height: 100%;
+  }
+  .img-logo {
+    left: 27%;
+  }
 }
 
 /* ============ MEDIA QUERY: max-width 1350px ============ */
 
-@media (max-width: 1350px){
-/* === Header === */
-.header-menu_button {
-  margin-left: 50px;
-}
-
-/* === App Block === */
-.block-app__left h2 {
-  height: 90px;
-}
-
+@media (max-width: 1350px) {
+  /*  Header  */
+  .header-menu_button {
+    margin-left: 50px;
+  }
+  /*  App Block  */
+  .block-app__left h2 {
+    height: 90px;
+  }
 }
 
 /* ============ MEDIA QUERY: max-width 1310px ============ */
 
-@media (max-width: 1300px){
-/* Nav-menu */
-.header-menu_button{
-  margin-left: 30px;
+@media (max-width: 1300px) {
+  /* Nav-menu */
+  .header-menu_button {
+    margin-left: 30px;
+  }
+  /* App */
+  .block-app__left h2 {
+    line-height: 65px;
+    height: 55px;
+  }
+  .block-app__button {
+    top: 40%;
+  }
+  /* About */
+  .about-block {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+  .about-block__info {
+    margin-left: 0px;
+  }
+  .info-text {
+    min-width: 100%;
+  }
+  .img-back {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .img-logo {
+    left: 40%;
+  }
 }
-
-/* App */
-
-.block-app__left h2 {
-  line-height: 65px;
-  height: 55px;
-}
-
-.block-app__button{
-  top: 40%;
-}
-
-/* About */
-.about-block {
-  display: flex;
-  flex-direction: column-reverse;
-  margin-bottom: 50px;
-}
-
-.about-block__info{
-  margin-left: 0px;
-}
-
-.info-text{
-  min-width: 100%;
-}
-
-.img-back{
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-.img-logo{
-  left: 40%;
-}
-}
-
 
 /* ============ MEDIA QUERY: max-width 1200px ============ */
 
@@ -482,53 +463,42 @@
   .header-menu_button {
     margin-left: 50px;
   }
-
   /* Sales Section */
   .block-left {
     top: 0%;
   }
-
-  .block-left h2{
-  font-size: 90px;
-  height: 90px;
+  .block-left h2 {
+    font-size: 90px;
+    height: 90px;
   }
-
   .left-bottom__text {
     font-size: var(--font-size-base);
   }
-
   /* Cards */
   .cards-right {
     left: 4%;
   }
-
   .block-cards--secondblock21 .cards-right,
   .block-cards--fourthblock .cards-right {
     padding-right: 30px;
   }
-
   .cards-img {
     height: 100%;
   }
-
   /* App Section */
   .block-app__left h2 {
     font-size: 75px;
   }
-
   .block-app__left h3 {
     font-size: 60px;
   }
-
   /* About Section */
   .about-block__info {
     margin: 0;
   }
-
-  .img-logo{
+  .img-logo {
     left: 40%;
   }
-
   /* Background Image */
   .img-back {
     height: 100%;
@@ -546,64 +516,52 @@
     object-position: center;
     height: 140px;
   }
-
   /* Cards Layout Stack */
   .block-cards:first-child,
   .block-cards:nth-child(3) {
     display: flex;
     flex-direction: column;
   }
-
   .cards-right {
     padding-right: 30px;
     padding-left: 35px;
   }
-
   .cards-right,
   .cards-right p {
     width: 100%;
   }
-
   .cards-right p {
     margin-bottom: 1.25rem;
   }
-
   .block-cards--secondblock,
   .block-cards--fourthblock {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .block-cards--secondblock .cards-right,
   .block-cards--fourthblock .cards-right {
     text-align: left;
     padding-left: 30px;
   }
-
   .cards-img {
     width: 100%;
   }
-
   .block-app__left h2 {
     height: 75px;
     line-height: 75px;
   }
-
   /* App Image */
   .app-block__img {
     object-fit: cover;
     object-position: center;
     height: 180px;
   }
-
   .block-app__left h2 {
     font-size: 60px;
   }
-
   .block-app__left h3 {
     font-size: 45px;
   }
-
   /* Header Burger Menu */
   header::before {
     display: none;
@@ -614,16 +572,14 @@
     width: 100%;
     height: 100%;
   }
-
   .header__burger {
     display: block;
     position: relative;
-    z-index: 5; 
+    z-index: 5;
     width: 30px;
     height: 20px;
     cursor: pointer;
   }
-
   .header__burger span {
     position: absolute;
     background-color: var(--black-color);
@@ -633,7 +589,6 @@
     top: 9px;
     z-index: 4;
   }
-
   .header__burger::before,
   .header__burger::after {
     content: "";
@@ -645,40 +600,33 @@
     z-index: 4;
     transition: all 0.3s ease 0s;
   }
-
   .header__burger::before {
     top: 0px;
   }
-
   .header__burger::after {
     bottom: 0px;
   }
-
   .header__burger.active::before {
     transform: rotate(45deg);
     top: 9px;
   }
-
   .header__burger.active::after {
     transform: rotate(-45deg);
     bottom: 9px;
   }
-
   .header__burger.active span {
     display: none;
   }
-
   /* Header Menu Buttons */
   .header-menu_button:last-child,
   .header-menu_button {
     margin: 0px;
   }
-
   .header-menu {
     position: fixed;
     flex-direction: column;
     justify-content: space-evenly;
-    top: -1000px;
+    top: -1500px;
     left: 0px;
     width: 100%;
     height: 100%;
@@ -687,11 +635,9 @@
     color: var(--black-color);
     z-index: 2;
   }
-
   .header-menu.active {
     top: 0px;
   }
-
   .header-menu_en {
     display: flex;
     border: 1px solid #000;
@@ -701,7 +647,6 @@
     width: 40px;
     height: 40px;
   }
-
   /* Call to Action */
   .cta-sing {
     top: 30%;
@@ -712,61 +657,52 @@
 /* ============ MEDIA QUERY: max-width 800px ============ */
 
 @media (max-width: 800px) {
-
   /* Hero Text */
   .main-text {
     left: 0px;
     top: 0px;
   }
-
   /* Sales Image */
   .sales-block__img {
     object-fit: cover;
     object-position: center;
-    height: 211px;
+    height: 215px;
   }
-
   .block-button {
-    top: 65%;
+    top: 150px;
   }
-
   /* App Image */
   .app-block__img {
     object-fit: cover;
     object-position: center;
     height: 211px;
   }
-
   .block-app__button {
-    top: 75%;
+    top: 160px;
   }
-
-  .block-cards--secondblock, .block-cards--fourthblock {
+  .block-cards--secondblock,
+  .block-cards--fourthblock {
     display: flex;
     flex-direction: column-reverse;
   }
-  .block-cards{
-    display: block;
-  }
-
   /* About Section Stack */
   .about-block {
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 50px;
   }
-
   .about-block__info {
     margin: 0;
     margin-bottom: 20px;
   }
-
   /* Call to Action */
   .cta-sing {
     top: 0%;
     left: 0%;
   }
-
+  .info-block {
+    align-items: center;
+  }
   /* Logo Positioning */
   .img-logo {
     left: 33%;
@@ -776,90 +712,74 @@
 /* ============ MEDIA QUERY: max-width 600px ============ */
 
 @media (max-width: 600px) {
-  /* === Main Text === */
-.main-text {
-  left: 0px;
-}
-
+  /* Main Text */
+  .main-text {
+    left: 0px;
+  }
   .header-menu_en {
     left: 73%;
   }
-
-.img-logo {
-  top: 81%;
-}
-/* === CTA === */
-.cta-top__text,
-.cta-bottom__text {
-  font-size: 20px;
-}
-
-.cta-button {
-  width: 140px;
-  height: 28px;
-  font-weight: var(--font-weight-500);
-  line-height: 8px;
-  font-size: 10px;
-}
-
-/* === Info Block === */
-.info-block {
-  align-items: center;
-}
-.info-text{
-  min-width: 100%;
-}
+  .img-logo {
+    top: 81%;
+  }
+  .block-app__button {
+    left: 22%;
+  }
+  /* CTA */
+  .cta-top__text,
+  .cta-bottom__text {
+    font-size: 20px;
+  }
+  .cta-button {
+    width: 140px;
+    height: 28px;
+    font-weight: var(--font-weight-500);
+    line-height: 8px;
+    font-size: 10px;
+  }
+  /* Info Block */
+  .info-block {
+    align-items: center;
+  }
+  .info-text {
+    min-width: 100%;
+  }
 }
 
 /* ============ MEDIA QUERY: max-width 400px ============ */
 
 @media (max-width: 400px) {
-
-  /* Header Language Button */
-  .header-menu_en {
-    left: 70%;
-  }
-
   /* Hero Text */
-
   .main-text__item {
     font-size: 16px;
     width: 300px;
   }
-
   /* Sales Text */
   .block-left {
-    left: 25%;
+    left: 22%;
   }
-
   .block-button {
     left: 25%;
     top: 75%;
   }
-
   /* App Section */
   .block-app__left {
     left: 15%;
   }
-
   .block-app__button {
     left: 15%;
   }
-
   /* About Text */
   .info-text {
     min-width: 350px;
   }
-
   /* Call to Action */
   .cta-sing {
     font-size: 16px;
   }
-
   .cta-top__text {
     font-size: 20px;
   }
-
   .cta-bottom__text {
     font-size: 20px;
   }

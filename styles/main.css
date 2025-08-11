@@ -21,10 +21,6 @@ body {
   overflow-x: hidden;
 }
 
-/* img, picture, video, canvas, svg{
-  height: 100%;
-} */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -52,7 +48,6 @@ footer {
   height: 330px;
 }
 
-
 @media (max-width: 1200px) {
     body {
     padding: 0 100px;
@@ -74,9 +69,6 @@ footer {
   body {
     padding: 0 50px;
   }
-}
-
-@media (max-width: 600px){
   footer {
   display: flex;
   flex-direction: column;

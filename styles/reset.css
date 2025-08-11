@@ -1,6 +1,3 @@
-/* ======== RESET STYLES ======== */
-
-/* 1. Убираем отступы */
 *,
 *::before,
 *::after {
@@ -9,7 +6,6 @@
   box-sizing: border-box;
 }
 
-/* 2. Наследуем шрифт */
 body,
 button,
 input,
@@ -20,7 +16,6 @@ textarea {
   color: inherit;
 }
 
-/* 3. Убираем outline, но возвращаем при фокусе через :focus-visible */
 :focus {
   outline: none;
 }
@@ -30,19 +25,16 @@ textarea {
   outline-offset: 2px;
 }
 
-/* 4. Убираем списочные стили */
 ul,
 ol {
   list-style: none;
 }
 
-/* 5. Убираем подчеркивание у ссылок по умолчанию */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* 6. Делает изображения адаптивными */
 img,
 picture,
 video,
@@ -53,7 +45,6 @@ svg {
   height: auto;
 }
 
-/* 7. Убираем border у полей и кнопок */
 button,
 input,
 textarea,
@@ -63,25 +54,21 @@ select {
   outline: none;
 }
 
-/* 8. Курсор для кнопок */
 button {
   cursor: pointer;
 }
 
-/* 9. Убираем стили у кнопок и ссылок в форме */
 button,
 input[type="submit"] {
   background-color: transparent;
   color: inherit;
 }
 
-/* 10. Наследуем line-height и убираем обводки */
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
-/* 11. HTML5 блочные элементы */
 article,
 aside,
 footer,
