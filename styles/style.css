@@ -658,8 +658,11 @@
 @media (max-width: 800px) {
   /* Hero Text */
   .main-text {
-    left: 0px;
-    top: 0px;
+    left: 20%;
+    top: 25%;
+  }
+  .main-text h1, .main-text h2{
+    font-size: 24px;
   }
   /* Sales Image */
   .sales-block__img {
@@ -669,6 +672,10 @@
   }
   .block-button {
     top: 150px;
+  }
+   /* Special text */
+  .special-offers__name h2, .special-offers__name h3{
+    font-size: 24px;
   }
   /* App Image */
   .app-block__img {
@@ -712,9 +719,6 @@
 
 @media (max-width: 600px) {
   /* Main Text */
-  .main-text {
-    left: 0px;
-  }
   .header-menu_en {
     left: 73%;
   }
