@@ -46,7 +46,7 @@ function SpecialOffers() {
             />
             </div>
         </div>
-        <d  iv className="block-cards">
+        <div className="block-cards">
             <div className="cards-left">
             <img
                 className="cards-img"
@@ -63,7 +63,7 @@ function SpecialOffers() {
             </p>
             <span className="cards-num">15% </span>
             </div>
-        </d>
+        </div>
         <div className="block-cards block-cards--fourthblock">
             <div className="cards-right">
             <h2 className="cards-text">Brand name</h2>

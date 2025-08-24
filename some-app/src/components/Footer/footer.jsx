@@ -3,8 +3,9 @@ import '../../styles/style.css';
 
 
 function Footer(){
-    <footer>
-        <div className="info-block">
+    return(
+        <>
+            <div className="info-block">
         <h2>Contact</h2>
             <a href="#" title="Samo Group">Samo Group</a>
             <a href="#" title="contact@samo.com">contact@samo.com</a>
@@ -25,7 +26,10 @@ function Footer(){
             <img src="./img/icons/youtube.svg" alt="icons" />
             </a>
         </div>
-    </footer>
+    </>
+    )
+
+
 }
 
 export default Footer;

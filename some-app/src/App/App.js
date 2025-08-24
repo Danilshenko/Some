@@ -7,33 +7,28 @@ import SpecialOffers from '../components/SpecialOffers/specialOffers';
 import AppBlock from '../components/AppBlock/appBlock';
 import AboutBlock from '../components/AboutBlock/aboutBlock';
 import CTA from '../components/CTA/cta';
-import Footer from '../components/Footer/footer';
+import Footer from '../components/Footer/footer'
 
 function App() {
   return (
     <>
-      <header>
+    <header>
         <Header/>
     </header>
-
     <main className="main">
       <Hero/>
       <section className="sales-block">
         <SalesBlock/>
       </section>
-
       <section className="special-offers">
         <SpecialOffers/>
       </section>
-
       <section className="app-block">
       <AppBlock/>
       </section>
-
       <section className="about-block">
         <AboutBlock/>
       </section>
-
       <section className="cta-block">
         <CTA/>
       </section>
