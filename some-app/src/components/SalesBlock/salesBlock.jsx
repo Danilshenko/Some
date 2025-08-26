@@ -1,5 +1,4 @@
 import '../SalesBlock/salesBlock.css';
-import '../../styles/style.css';
 
 function SalesBlock(){
     return(

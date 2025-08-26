@@ -1,0 +1,60 @@
+@import url("../../styles/reset.css");
+@import url("../../styles/main.css");
+
+.main-img {
+  position: relative;
+  margin-bottom: 26px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: var(--white-color);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  top: 35%;
+  left: 44%;
+}
+
+.main-text h1 {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.main-text h2 {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-300);
+  line-height: 1.2;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+}
+
+.main-text__item:last-child {
+  font-weight: var(--font-weight-100);
+}
+
+@media (max-width: 1500px){
+    .main-text__item {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 800px){
+    .main-text {
+    left: 20%;
+    top: 25%;
+  }
+  .main-text h1, .main-text h2{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px){
+    .main-text__item {
+    font-size: 16px;
+    width: 300px;
+  }
+}

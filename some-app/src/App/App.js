@@ -1,5 +1,3 @@
-import '../styles/reset.css';
-import '../styles/style.css';
 import Header from '../components/Header/header';
 import Hero from '../components/Hero/hero';
 import SalesBlock from '../components/SalesBlock/salesBlock';

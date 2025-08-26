@@ -1,5 +1,4 @@
-import "../SpecialOffers/specialOffers";
-import '../../styles/style.css';
+import "../SpecialOffers/specialOffers.css";
 
 function SpecialOffers() {
     return (

@@ -1,5 +1,4 @@
 import '../AboutBlock/aboutBlock.css';
-import '../../styles/style.css';
 
 
 function AboutBlock(){

@@ -1,0 +1,83 @@
+@import url("../../styles/reset.css");
+@import url("../../styles/main.css");
+.cta-block {
+  position: relative;
+  height: 100%;
+}
+
+.cta-sing {
+  position: absolute;
+  left: 55%;
+  top: 40%;
+}
+
+.cta-top__text {
+  font-size: 34px;
+  letter-spacing: 0.2rem;
+  font-weight: var(--font-weight-base);
+  text-transform: uppercase;
+}
+
+.cta-bottom__text {
+  font-weight: var(--font-weight-300);
+  font-size: var(--font-size-base);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 25px;
+}
+
+.cta-button {
+  padding: 10px 25px;
+  font-weight: var(--font-weight-500);
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  background-color: transparent;
+  border: 1px solid #000;
+}
+
+@media (max-width: 1300px){
+  .cta-sing {
+    top: 30%;
+    left: 47%;
+  }
+}
+
+@media (max-width: 1150px){
+  .cta-sing{
+    left: 5%;
+    top: 9%;
+  }
+}
+
+@media (max-width: 800px){
+  .cta-sing {
+    top: 0%;
+    left: 0%;
+  }
+}
+
+@media (max-width: 600px){
+  .cta-top__text,
+  .cta-bottom__text {
+    font-size: 20px;
+  }
+  .cta-button {
+    width: 140px;
+    height: 28px;
+    font-weight: var(--font-weight-500);
+    line-height: 8px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px){
+  .cta-sing {
+    font-size: 16px;
+  }
+  .cta-top__text {
+    font-size: 20px;
+  }
+  .cta-bottom__text {
+    font-size: 20px;
+  }
+}

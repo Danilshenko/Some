@@ -1,5 +1,4 @@
 import '../AppBlock/appBlock.css';
-import '../../styles/style.css';
 
 
 function AppBlock(){

@@ -1,5 +1,4 @@
 import '../CTA/cta.css';
-import '../../styles/style.css';
 
 
 function CTA(){

@@ -1,0 +1,125 @@
+@import url("../../styles/reset.css");
+@import url("../../styles/main.css");
+
+.about-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 142px;
+}
+
+.about-block__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 180px;
+}
+
+.info-name {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-base);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.info-text {
+  display: block;
+  font-size: 14px;
+  font-weight: var(--font-weight-500);
+  min-width: 450px;
+}
+
+.info-button {
+  padding: 10px 10px;
+  background-color: transparent;
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-500);
+  letter-spacing: 0.1rem;
+  margin-top: 35px;
+  border: 1px solid #000;
+}
+
+.about-block__img {
+  position: relative;
+}
+
+.img-logo {
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  color: var(--white-color);
+}
+
+@media (max-width: 1400px) {
+  .img-back {
+    height: 100%;
+  }
+  .img-logo {
+    left: 27%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about-block {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+  .about-block__info {
+    margin-left: 0px;
+  }
+  .info-text {
+    min-width: 100%;
+  }
+  .img-back {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .img-logo {
+    left: 40%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-block__info {
+    margin: 0;
+  }
+  .img-logo {
+    left: 40%;
+  }
+    .img-back {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-block {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+  .about-block__info {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .img-logo {
+    left: 33%;
+  }
+}
+
+@media (max-width: 600px) {
+  .info-text {
+    min-width: 100%;
+  }
+  .img-logo {
+    top: 75%;
+  }
+}
+
+@media (max-width: 400px) {
+  .info-text {
+    min-width: 350px;
+  }
+}

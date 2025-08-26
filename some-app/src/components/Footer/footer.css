@@ -1,0 +1,49 @@
+@import url("../../styles/reset.css");
+@import url("../../styles/main.css");
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-block h2 {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-18);
+  color: var(--white-color);
+  margin-bottom: 18px;
+}
+
+.info-block a {
+  font-weight: var(--font-weight-300);
+  font-size: 14px;
+  color: var(--white-color);
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.info-logo {
+  width: 166px;
+  height: 56px;
+}
+
+.info-icons {
+  width: 266px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px){
+  .info-block {
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px){
+    .info-block {
+    align-items: center;
+  }
+  .info-text {
+    min-width: 100%;
+  }
+}
