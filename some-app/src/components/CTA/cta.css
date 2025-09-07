@@ -35,28 +35,28 @@
   border: 1px solid #000;
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1300px) {
   .cta-sing {
     top: 30%;
     left: 47%;
   }
 }
 
-@media (max-width: 1150px){
-  .cta-sing{
+@media (max-width: 1150px) {
+  .cta-sing {
     left: 5%;
     top: 9%;
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .cta-sing {
     top: 0%;
     left: 0%;
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .cta-top__text,
   .cta-bottom__text {
     font-size: 20px;
@@ -70,7 +70,7 @@
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
   .cta-sing {
     font-size: 16px;
   }

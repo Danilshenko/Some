@@ -15,7 +15,7 @@
   left: 5%;
 }
 
-.block-app__button {
+/* .block-app__button {
   position: absolute;
   color: var(--white-color);
   background-color: transparent;
@@ -26,7 +26,7 @@
   padding: 10px 20px;
   top: 45%;
   left: 30%;
-}
+} */
 
 .block-app__left h2 {
   font-size: 76px;
@@ -40,71 +40,23 @@
   color: var(--white-color);
 }
 
-/* About  */
-
-.about-block {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 142px;
-}
-
-.about-block__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: 180px;
-}
-
-.info-name {
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-base);
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
-.info-text {
-  display: block;
-  font-size: 14px;
-  font-weight: var(--font-weight-500);
-  min-width: 450px;
-}
-
-.info-button {
-  padding: 10px 10px;
-  background-color: transparent;
-  font-size: var(--font-size-18);
-  font-weight: var(--font-weight-500);
-  letter-spacing: 0.1rem;
-  margin-top: 35px;
-  border: 1px solid #000;
-}
-
-.about-block__img {
-  position: relative;
-}
-
-.img-logo {
-  position: absolute;
-  top: 85%;
-  left: 40%;
-  color: var(--white-color);
-}
-
-@media (max-width: 1500px){
+@media (max-width: 1500px) {
   .block-app__button {
     top: 45%;
     left: 45%;
   }
+  .left-top__text{
+    line-height: 85px;
+  }
 }
 
-@media (max-width: 1350px){
+@media (max-width: 1350px) {
   .block-app__left h2 {
     height: 90px;
   }
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1300px) {
   .block-app__left h2 {
     line-height: 65px;
     height: 55px;
@@ -114,7 +66,7 @@
   }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .block-app__left h2 {
     font-size: 75px;
   }
@@ -123,7 +75,7 @@
   }
 }
 
-@media (max-width: 1150px){
+@media (max-width: 1150px) {
   .app-block__img {
     object-fit: cover;
     object-position: center;
@@ -137,7 +89,7 @@
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .app-block__img {
     object-fit: cover;
     object-position: center;
@@ -148,14 +100,14 @@
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .block-app__button {
     left: 22%;
   }
 }
 
-@media (max-width: 400px){
-    .block-app__left {
+@media (max-width: 400px) {
+  .block-app__left {
     left: 15%;
   }
   .block-app__button {

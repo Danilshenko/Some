@@ -81,8 +81,8 @@
   margin-left: auto;
 }
 
-@media (max-width: 1500px){
-    .cards-right {
+@media (max-width: 1500px) {
+  .cards-right {
     padding: 45px 0px 45px 70px;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@
   }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .cards-right {
     left: 4%;
   }
@@ -104,7 +104,7 @@
   }
 }
 
-@media (max-width: 1150px){
+@media (max-width: 1150px) {
   .block-cards:first-child,
   .block-cards:nth-child(3) {
     display: flex;
@@ -140,8 +140,9 @@
   }
 }
 
-@media (max-width: 800px){
-  .special-offers__name h2, .special-offers__name h3{
+@media (max-width: 800px) {
+  .special-offers__name h2,
+  .special-offers__name h3 {
     font-size: 24px;
   }
   .block-cards--secondblock,
@@ -151,14 +152,14 @@
   }
 }
 
-@media (max-width: 600px){
-  .cards-name{
+@media (max-width: 600px) {
+  .cards-name {
     font-size: var(--font-size-base);
   }
-  .cards-text{
+  .cards-text {
     font-size: 30px;
   }
-  .block-cards--secondblock .cards-right{
+  .block-cards--secondblock .cards-right {
     padding-right: 30px;
   }
 }

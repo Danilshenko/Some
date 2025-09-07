@@ -1,4 +1,6 @@
 import "../SpecialOffers/specialOffers.css";
+import SpecialOfferCard from "../SpecialOfferCard/specialOfferCard";
+import SpecialOfferOverlayCard from "../SpecialOfferOverlayCard/SpecialOfferOverlayCard";
 
 function SpecialOffers() {
     return (
@@ -8,26 +10,20 @@ function SpecialOffers() {
         <h3 className="name-bottom__text">From the best brands</h3>
         </div>
         <div className="special-offers__block">
-        <div className="block-cards">
-            <div className="cards-left">
-            <h2 className="cards-name">Brand name</h2>
-            <img
-                className="cards-img"
-                src="./img/bg/bakcBrand-ezgif.com-jpg-to-webp-converter.webp"
-                alt="back brand"
-            />
-            </div>
-            <div className="cards-right">
-            <h2 className="cards-text">Brand name</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                pellentesque, est quis sagittis sodales, est tortor commodo
-                ligula, sed commodo orci elit non nisl. 
-            </p>
-            <span className="cards-num">15% </span>
+            <div className="block-cards">
+            <SpecialOfferOverlayCard
+            title="Brand name"
+            img="./img/bg/bakcBrand-ezgif.com-jpg-to-webp-converter.webp"
+            alt="back brand"/>
+            <SpecialOfferCard 
+            title="Brand name"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            pellentesque, est quis sagittis sodales, est tortor commodo
+            ligula, sed commodo orci elit non nisl. "
+            descount={15}/>
             </div>
         </div>
-        <div className="block-cards block-cards--secondblock">
+        {/* <div className="block-cards block-cards--secondblock">
             <div className="cards-right">
             <h2 className="cards-text">Brand name</h2>
             <p>
@@ -79,9 +75,8 @@ function SpecialOffers() {
                 src="./img/bg/backBrand4-ezgif.com-jpg-to-webp-converter.webp"
                 alt="back brand"
             />
-            </div>
-        </div>
-        </div>
+            </div> */}
+        {/* </div> */}
     </> 
     );
 }

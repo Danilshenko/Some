@@ -1,4 +1,5 @@
 import '../AboutBlock/aboutBlock.css';
+import Button from '../elements/Button/button';
 
 
 function AboutBlock(){
@@ -15,7 +16,8 @@ function AboutBlock(){
             comprehensive product lists that cater to diverse styles and
             budgets.
             </p>
-            <button className="info-button">Learn more</button>
+            {/* <button className="info-button">Learn more</button> */}
+            <Button>Learn more</Button>
         </div>
         <div className="about-block__img">
             <img

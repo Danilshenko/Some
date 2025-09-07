@@ -1,4 +1,5 @@
 import '../AppBlock/appBlock.css';
+import Button from '../elements/Button/button';
 
 
 function AppBlock(){
@@ -14,7 +15,7 @@ function AppBlock(){
             <h2 className="left-top__text">Try app</h2>
             <h3 className="left-bottom__text">yourself</h3>
             </div>
-            <button className="block-app__button">Create the project</button>
+            <Button variant='block-app__button'>Create the project</Button>
         </div>
         </>
     )

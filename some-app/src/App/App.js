@@ -6,6 +6,7 @@ import AppBlock from '../components/AppBlock/appBlock';
 import AboutBlock from '../components/AboutBlock/aboutBlock';
 import CTA from '../components/CTA/cta';
 import Footer from '../components/Footer/footer'
+import BrandSection from '../components/BrandSection/BrandSection.tsx'
 
 function App() {
   return (

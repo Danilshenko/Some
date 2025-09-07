@@ -1,3 +1,4 @@
+import Button from '../elements/Button/button';
 import '../SalesBlock/salesBlock.css';
 
 function SalesBlock(){
@@ -13,7 +14,7 @@ function SalesBlock(){
                     <h2 className="left-top__text">Sales</h2>
                     <h3 className="left-bottom__text">up to 40%</h3>
                 </div>
-                <button className="block-button">Check Out</button>
+                <Button variant='block-sales_button'>Check Out</Button>
             </div>
         </section>
     )

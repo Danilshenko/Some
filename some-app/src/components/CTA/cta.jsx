@@ -1,5 +1,7 @@
 import '../CTA/cta.css';
 
+import Button from '../elements/Button/button';
+
 
 function CTA(){
     return(
@@ -12,7 +14,7 @@ function CTA(){
         <div className="cta-sing">
             <h2 className="cta-top__text">Create your own</h2>
             <h3 className="cta-bottom__text">perfect interior</h3>
-            <button className="cta-button">Sign up now</button>
+            <Button>Sing up now</Button>
         </div>
         </>
     )

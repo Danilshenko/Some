@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "brandName": "NovaTech",
+    "title": "Brand name",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque, est quis sagittis sodales, est tortor commodo ligula, sed commodo orci elit non nisl.  1",
+    "precentage": "15%",
+    "imgURL": "/images/brands/brand1.webp"
+  },
+  {
+    "id": 2,
+    "brandName": "AetherWear",
+    "title": "Brand name 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque, est quis sagittis sodales, est tortor commodo ligula, sed commodo orci elit non nisl.  2",
+    "precentage": "15%",
+    "imgURL": "/images/brands/brand2.webp"
+  },
+  {
+    "id": 3,
+    "brandName": "LumoLabs",
+    "title": "Brand name 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque, est quis sagittis sodales, est tortor commodo ligula, sed commodo orci elit non nisl.  3",
+    "precentage": "15%",
+    "imgURL": "/images/brands/brand3.webp"
+  },
+  {
+    "id": 4,
+    "brandName": "Zenova",
+    "title": "Brand name 4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque, est quis sagittis sodales, est tortor commodo ligula, sed commodo orci elit non nisl.  4",
+    "precentage": "15%",
+    "imgURL": "/images/brands/brand4.webp"
+  }
+]

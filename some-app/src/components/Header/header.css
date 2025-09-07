@@ -1,6 +1,19 @@
 @import url("../../styles/reset.css");
 @import url("../../styles/main.css");
 
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+  margin-bottom: 35px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header-menu_en {
   position: absolute;
   padding: 11px 11px;
@@ -32,19 +45,23 @@
   margin-left: 60px;
 }
 
-@media (max-width: 1500px){
-    .header-menu_button, .header-menu_button:last-child{
+@media (max-width: 1500px) {
+  .header-menu_button,
+  .header-menu_button:last-child {
     margin-left: 45px;
   }
 }
 
-@media (max-width: 1300px){
-    .header-menu_button {
+@media (max-width: 1300px) {
+  .header-menu_button {
     margin-left: 30px;
   }
 }
 
-@media (max-width: 1150px){
+@media (max-width: 1150px) {
+  header {
+    align-items: center;
+  }
   header::before {
     display: none;
     content: "";
@@ -131,14 +148,14 @@
   }
 }
 
-@media (max-width: 1000px){
-  .header-menu_en{
+@media (max-width: 1000px) {
+  .header-menu_en {
     left: 75%;
   }
 }
 
-@media (max-width: 600px){
-    .header-menu_en {
+@media (max-width: 600px) {
+  .header-menu_en {
     left: 73%;
   }
 }

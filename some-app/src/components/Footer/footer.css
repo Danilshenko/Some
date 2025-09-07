@@ -1,6 +1,14 @@
 @import url("../../styles/reset.css");
 @import url("../../styles/main.css");
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--black-color);
+  height: 330px;
+}
+
 .info-block {
   display: flex;
   flex-direction: column;
@@ -33,14 +41,18 @@
   justify-content: space-between;
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .info-block {
     align-items: center;
   }
+  footer {
+  display: flex;
+  flex-direction: column;
+}
 }
 
-@media (max-width: 600px){
-    .info-block {
+@media (max-width: 600px) {
+  .info-block {
     align-items: center;
   }
   .info-text {

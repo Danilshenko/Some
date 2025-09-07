@@ -27,6 +27,7 @@
   font-size: 14px;
   font-weight: var(--font-weight-500);
   min-width: 450px;
+  margin-bottom: 30px;
 }
 
 .info-button {
@@ -87,7 +88,7 @@
   .img-logo {
     left: 40%;
   }
-    .img-back {
+  .img-back {
     height: 100%;
     width: 100%;
     margin-bottom: 20px;
