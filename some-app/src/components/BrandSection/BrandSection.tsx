@@ -11,12 +11,15 @@ const BrandSection = ({classNames=""} : {classNames?:string}) => {
     queryFn: getBrands,
     refetchOnWindowFocus: false,
   });
+  
+
 
   // if (isLoading) return <Loader />;
 
   if (error) {
     return <div>Error loading data</div>
   }
+    console.log("data from query:", data);
   return (
     <section className={classNames}>
       <SpecialOffersHeader title="Special offers" description="from the best brands" />
@@ -24,7 +27,10 @@ const BrandSection = ({classNames=""} : {classNames?:string}) => {
       <div className="mt-[100px]">
         {data &&
           data.map((brand, index) => {
+            console.log("data from query:", data);
+            if(!brand) return null;
             if (index === 0) {
+              console.log(brand);
               return (
                 <SpecialOfferCard
                   key={brand.id}
@@ -36,12 +42,12 @@ const BrandSection = ({classNames=""} : {classNames?:string}) => {
             }
             if (index % 2 === 0) {
               return (
-                <SpecialOfferCard key={brand.id} brand={brand} imgSide="left" />
+                <SpecialOfferCard key={brand.id} brand={brand} withBrandName imgSide="left" />
               );
             }
 
             return (
-              <SpecialOfferCard key={brand.id} brand={brand} imgSide="right" />
+              <SpecialOfferCard key={brand.id} brand={brand} withBrandName imgSide="right" />
             );
           })}
       </div>
