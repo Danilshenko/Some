@@ -1,6 +1,7 @@
 export interface Brand {
   id: number;
   title: string;
+  brandName: string;
   description: string;
   precentage: string;
   imgURL: string;
@@ -8,13 +9,13 @@ export interface Brand {
 
 export function useApiBrands() {
   const getBrands = async (): Promise<Brand[]> => {
-    const response = await fetch("../data/offers.json");
+    const response = await fetch("/data/offers.json");
 
     if (!response.ok) {
       throw new Error(response.statusText);
     }
 
-    const data: Brand[] = await response.json();
+    const data = await response.json();
 
     return data;
   };

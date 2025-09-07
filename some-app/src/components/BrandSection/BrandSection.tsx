@@ -3,6 +3,7 @@ import { Brand, useApiBrands } from "../../services/brands.ts";
 import SpecialOfferCard from "../SpecialOfferCard/specialOfferCard.jsx";
 import SpecialOffersHeader from "../SpecialOffersHeader/specialOffersHeader.jsx";
 
+
 const BrandSection = ({classNames=""} : {classNames?:string}) => {
   const { getBrands } = useApiBrands();
 
