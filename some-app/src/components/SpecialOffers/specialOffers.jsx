@@ -1,6 +1,7 @@
 import "../SpecialOffers/specialOffers.css";
 import SpecialOfferCard from "../SpecialOfferCard/specialOfferCard";
 import SpecialOfferOverlayCard from "../SpecialOfferOverlayCard/SpecialOfferOverlayCard";
+import BrandSection from '../BrandSection/BrandSection.tsx'
 
 function SpecialOffers() {
     return (
@@ -15,7 +16,7 @@ function SpecialOffers() {
             title="Brand name"
             img="./img/bg/bakcBrand-ezgif.com-jpg-to-webp-converter.webp"
             alt="back brand"/>
-            <SpecialOfferCard 
+            <BrandSection
             title="Brand name"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             pellentesque, est quis sagittis sodales, est tortor commodo

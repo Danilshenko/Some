@@ -9,14 +9,14 @@ export interface Brand {
 
 export function useApiBrands() {
   const getBrands = async (): Promise<Brand[]> => {
-    const response = await fetch("/data/offers.json");
+    const response = await fetch("public/data/offers.json");
 
     if (!response.ok) {
       throw new Error(response.statusText);
     }
 
     const data = await response.json();
-
+    console.log('data', data)
     return data;
   };
 
