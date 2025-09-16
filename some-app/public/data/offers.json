@@ -5,7 +5,7 @@
     "title": "Brand name",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque, est quis sagittis sodales, est tortor commodo ligula, sed commodo orci elit non nisl.  1",
     "precentage": "15%",
-    "imgURL": "/images/brands/brand1.webp"
+    "imgURL": "img/bg/bakcBrand-ezgif.com-jpg-to-webp-converter.webp"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "title": "Brand name 2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque, est quis sagittis sodales, est tortor commodo ligula, sed commodo orci elit non nisl.  2",
     "precentage": "15%",
-    "imgURL": "/images/brands/brand2.webp"
+    "imgURL": "img/bg/backBrand2-ezgif.com-jpg-to-webp-converter.webp"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "title": "Brand name 3",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque, est quis sagittis sodales, est tortor commodo ligula, sed commodo orci elit non nisl.  3",
     "precentage": "15%",
-    "imgURL": "/images/brands/brand3.webp"
+    "imgURL": "img/bg/backBrand3-ezgif.com-jpg-to-webp-converter.webp"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "title": "Brand name 4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque, est quis sagittis sodales, est tortor commodo ligula, sed commodo orci elit non nisl.  4",
     "precentage": "15%",
-    "imgURL": "/images/brands/brand4.webp"
+    "imgURL": "img/bg/backBrand4-ezgif.com-jpg-to-webp-converter.webp"
   }
 ]

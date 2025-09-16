@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Brand, useApiBrands } from "../../services/brands.ts";
 import SpecialOfferCard from "../SpecialOfferCard/specialOfferCard.jsx";
+import SpecialOfferOverlayCard from "../SpecialOfferOverlayCard/SpecialOfferOverlayCard.jsx";
 import SpecialOffersHeader from "../SpecialOffersHeader/specialOffersHeader.jsx";
 
 
@@ -20,7 +21,6 @@ const BrandSection = ({classNames=""} : {classNames?:string}) => {
   if (error) {
     return <div>Error loading data</div>
   }
-    console.log("data from query 3:", data);
   return (
     <section className={classNames}>
       <SpecialOffersHeader title="Special offers" description="from the best brands" />
@@ -28,32 +28,30 @@ const BrandSection = ({classNames=""} : {classNames?:string}) => {
       <div className="mt-[100px]">
         {data &&
           data.map((brand, index) => {
-            console.log("data from query:", data);
             if (index === 0) {
               return (
                 <SpecialOfferCard
                   key={brand.id}
                   brand={brand}
-                  // withBrandName
-                  // imgSide="none"
-                />
+                  type="overlayCards"
+                  />
               );
             }
-            if (index % 2 === 0) {
+            if (index % 2 === 1) {
               return (
                 <SpecialOfferCard 
                 key={brand.id} 
                 brand={brand} 
-                // imgSide="left" 
+                type="default"
+                reverse="true"
                 />
               );
             }
-
             return (
               <SpecialOfferCard
               key={brand.id} 
               brand={brand} 
-              // imgSide="right" 
+              type="default"
               />
             );
           })}

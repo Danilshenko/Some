@@ -9,6 +9,7 @@ import AboutBlock from "../components/AboutBlock/aboutBlock";
 import CTA from "../components/CTA/cta";
 import Footer from "../components/Footer/footer";
 import BrandSection from "../components/BrandSection/BrandSection.tsx";
+import SpecialOfferOverlayCard from "../components/SpecialOfferOverlayCard/SpecialOfferOverlayCard.jsx";
 
 function App() {
   const [queryClient] = useState(() => new QueryClient());
