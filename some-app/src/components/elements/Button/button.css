@@ -24,3 +24,15 @@
   top: 40%;
   left: 40%;
 }
+
+@media (max-width: 800px){
+  .block-sales_button{
+    top: 70%;
+  }
+}
+
+@media (max-width: 400px){
+  .block-sales_button{
+    left: 30%;
+  }
+}
