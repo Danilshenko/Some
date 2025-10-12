@@ -11,10 +11,6 @@ export function useApiBrands() {
   const getBrands = async (): Promise<Brand[]> => {
     const response = await fetch("data/offers.json");
 
-    // if (response.ok) {
-    //   console.log("data from query 4:", response);
-    // }
-
     if (!response.ok) {
       console.log('error', response)
       throw new Error(response.statusText);

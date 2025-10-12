@@ -1,14 +1,14 @@
 import { useQuery } from "@tanstack/react-query";
-import { Brand, useApiBrands } from "../../services/brands.ts";
+import { useApiBrands } from "../../services/brands.ts";
+import Loader from '../Loader/Loader.tsx'
 import SpecialOfferCard from "../SpecialOfferCard/specialOfferCard.jsx";
-import SpecialOfferOverlayCard from "../SpecialOfferOverlayCard/SpecialOfferOverlayCard.jsx";
 import SpecialOffersHeader from "../SpecialOffersHeader/specialOffersHeader.jsx";
 
 
-const BrandSection = ({classNames=""} : {classNames?:string}) => {
+const BrandSection = () => {
   const { getBrands } = useApiBrands();
 
-  const { data, isLoading, error } = useQuery<Brand[]>({
+  const { data, isLoading, error } = useQuery({
     queryKey: ["brands"],
     queryFn: getBrands,
     refetchOnWindowFocus: false,
@@ -16,14 +16,17 @@ const BrandSection = ({classNames=""} : {classNames?:string}) => {
   
 
 
-  // if (isLoading) return <Loader />;
+  if (isLoading) return <Loader />;
 
   if (error) {
     return <div>Error loading data</div>
   }
   return (
-    <section className={classNames}>
-      <SpecialOffersHeader title="Special offers" description="from the best brands" />
+    <section className="special-offers">
+      <SpecialOffersHeader 
+      title="Special offers" 
+      description="from the best brands" 
+      />
 
       <div className="mt-[100px]">
         {data &&
