@@ -1,6 +1,6 @@
 import "../CTA/cta.css";
 
-import Button from "../elements/Button/button";
+import Button from "../elements/Button/Button";
 
 function CTA() {
   return (

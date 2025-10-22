@@ -1,12 +1,12 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState } from "react";
-import Header from "../components/Header/header";
-import Hero from "../components/Hero/hero";
-import SalesBlock from "../components/SalesBlock/salesBlock";
-import AppBlock from "../components/AppBlock/appBlock";
-import AboutBlock from "../components/AboutBlock/aboutBlock";
-import CTA from "../components/CTA/cta";
-import Footer from "../components/Footer/footer";
+import Header from "../components/Header/Header.jsx";
+import Hero from "../components/Hero/Hero.jsx";
+import SalesBlock from "../components/SalesBlock/SalesBlock.jsx";
+import AppBlock from "../components/AppBlock/AppBlock.jsx";
+import AboutBlock from "../components/AboutBlock/AboutBlock.jsx";
+import CTA from "../components/CTA/Cta.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 import BrandSection from "../components/BrandSection/BrandSection.tsx";
 
 function App() {

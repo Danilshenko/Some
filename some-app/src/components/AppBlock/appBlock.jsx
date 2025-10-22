@@ -1,5 +1,5 @@
 import "../AppBlock/appBlock.css";
-import Button from "../elements/Button/button";
+import Button from "../elements/Button/Button";
 
 function AppBlock() {
   return (

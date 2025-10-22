@@ -12,7 +12,7 @@ export function useApiBrands() {
     const response = await fetch("data/offers.json");
 
     if (!response.ok) {
-      console.log('error', response)
+      console.log("error", response);
       throw new Error(response.statusText);
     }
 
@@ -23,4 +23,3 @@ export function useApiBrands() {
 
   return { getBrands };
 }
-

@@ -1,5 +1,5 @@
 import "../AboutBlock/aboutBlock.css";
-import Button from "../elements/Button/button";
+import Button from "../elements/Button/Button";
 
 function AboutBlock() {
   return (

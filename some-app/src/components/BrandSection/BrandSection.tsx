@@ -1,9 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import { useApiBrands } from "../../services/brands.ts";
-import Loader from '../Loader/Loader.tsx'
-import SpecialOfferCard from "../SpecialOfferCard/specialOfferCard.jsx";
-import SpecialOffersHeader from "../SpecialOffersHeader/specialOffersHeader.jsx";
-
+import Loader from "../Loader/Loader.tsx";
+import SpecialOfferCard from "../SpecialOfferCard/SpecialOfferCard.jsx";
+import SpecialOffersHeader from "../SpecialOffersHeader/SpecialOffersHeader.jsx";
 
 const BrandSection = () => {
   const { getBrands } = useApiBrands();
@@ -13,19 +12,17 @@ const BrandSection = () => {
     queryFn: getBrands,
     refetchOnWindowFocus: false,
   });
-  
-
 
   if (isLoading) return <Loader />;
 
   if (error) {
-    return <div>Error loading data</div>
+    return <div>Error loading data</div>;
   }
   return (
     <section className="special-offers">
-      <SpecialOffersHeader 
-      title="Special offers" 
-      description="from the best brands" 
+      <SpecialOffersHeader
+        title="Special offers"
+        description="from the best brands"
       />
 
       <div className="mt-[100px]">
@@ -37,25 +34,21 @@ const BrandSection = () => {
                   key={brand.id}
                   brand={brand}
                   type="overlayCards"
-                  />
+                />
               );
             }
             if (index % 2 === 1) {
               return (
-                <SpecialOfferCard 
-                key={brand.id} 
-                brand={brand} 
-                type="default"
-                reverse="true"
+                <SpecialOfferCard
+                  key={brand.id}
+                  brand={brand}
+                  type="default"
+                  reverse="true"
                 />
               );
             }
             return (
-              <SpecialOfferCard
-              key={brand.id} 
-              brand={brand} 
-              type="default"
-              />
+              <SpecialOfferCard key={brand.id} brand={brand} type="default" />
             );
           })}
       </div>

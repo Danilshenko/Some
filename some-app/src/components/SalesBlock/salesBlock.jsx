@@ -1,4 +1,4 @@
-import Button from "../elements/Button/button";
+import Button from "../elements/Button/Button";
 import "../SalesBlock/salesBlock.css";
 
 function SalesBlock() {
