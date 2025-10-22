@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState } from "react";
-import Header from "../components/Header/Header.jsx";
+import Header from '../components/Header/Header.jsx'
 import Hero from "../components/Hero/Hero.jsx";
 import SalesBlock from "../components/SalesBlock/SalesBlock.jsx";
 import AppBlock from "../components/AppBlock/AppBlock.jsx";
